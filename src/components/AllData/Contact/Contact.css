@@ -1,0 +1,25 @@
+/* contact us banner style */
+.contact-style{
+  background-image: url('https://www.teahub.io/photos/full/60-608358_background-travel.jpg');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gainsboro;
+  padding: 170px;
+  border-radius: 20px;
+  color: palevioletred ;
+  text-align: center;
+}
+
+/* contact us colums style */
+.contact-us-background-style{
+  transition: .7s;
+}
+
+/* contact us colums style and hover effect */
+.contact-us-background-style:hover{
+  background-color: rgb(236, 125, 180) ;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px gray;
+}

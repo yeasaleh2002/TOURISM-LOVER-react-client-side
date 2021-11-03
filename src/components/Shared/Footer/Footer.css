@@ -1,0 +1,9 @@
+.background-style{
+    transition: .7s;
+}
+
+.background-style:hover{
+    background-color: rgb(252, 96, 68);
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px gray;
+}

@@ -1,0 +1,26 @@
+/* about us banner style */
+.about-style{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/21/Cox%27s_Bazar_Sunset.JPG');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: gainsboro;
+    padding: 170px;
+    border-radius: 20px;
+    color: aquamarine ;
+    text-align: center;
+  }
+  
+  
+  /* about us use colums style */
+  .contact-us-background-style{
+    transition: .7s;
+  }
+  
+  /* contact us colums style and hover effect */
+  .contact-us-background-style:hover{
+    background-color: rgb(236, 125, 180) ;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px gray;
+  }
