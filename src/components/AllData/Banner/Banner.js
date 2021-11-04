@@ -19,8 +19,8 @@ const Banner = () => {
 
       {/* Carousel item caption */}
     <Carousel.Caption>
-      <span className="text-white  fs-1 p-2 mb-1  rounded">Cox's Bazar</span> <br /> <br />
-      <span className="text-white  p-1 rounded">Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. </span> <br /> <br />
+      <span className="text-white  fs-2 p-2 mb-1  rounded">Cox's Bazar</span> <br /> <br />
+      <span className="text-white  p-1 rounded">Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. </span> <br /> <br />
     </Carousel.Caption>
   </Carousel.Item>
  
@@ -36,8 +36,8 @@ const Banner = () => {
 
   {/* Carousel item caption */}
     <Carousel.Caption>
-    <span className="text-white bg-danger fs-1 p-2 mb-1 rounded">Copenhagen</span> <br /> <br />
-      <span className="text-white bg-primary  p-1 rounded">Copenhagen, Denmark’s capital, sits on the coastal islands of Zealand and Amager. It’s linked to Malmo in southern Sweden by the Öresund Bridge. Indre By, the city's historic center, contains Frederiksstaden, an 18th-century rococo district, home to the royal family’s Amalienborg Palace.</span> <br /> <br />
+    <span className="text-white bg-danger fs-2 p-2 mb-1 rounded">Copenhagen</span> <br /> <br />
+      <span className="text-white bg-primary  p-1 rounded">Copenhagen, Denmark’s capital, sits on the coastal islands of Zealand and Amager. It’s linked to Malmo in southern Sweden by the Öresund Bridge. </span> <br /> <br />
     </Carousel.Caption>
   </Carousel.Item>
  
@@ -53,8 +53,8 @@ const Banner = () => {
 
   {/* Carousel item caption */}
     <Carousel.Caption>
-    <span className="text-white bg-danger fs-1 p-2 mb-1 rounded">Jammu And Kashmir</span> <br /> <br />
-      <span className="text-white bg-primary p-1 rounded">Jammu and Kashmir was a region formerly administered by India as a state from 1954 to 2019, constituting the southern and southeastern portion of the larger Kashmir region, which has been the subject of a dispute between India, Pakistan and China since the mid-20th century.</span> <br /> <br />
+    <span className="text-white bg-danger fs-2 p-2 mb-1 rounded">Jammu And Kashmir</span> <br /> <br />
+      <span className="text-white bg-primary p-1 rounded">Jammu and Kashmir was a region formerly administered by India as a state from 1954 to 2019.</span> <br /> <br />
     </Carousel.Caption>
   </Carousel.Item>
  
@@ -70,8 +70,8 @@ const Banner = () => {
 
   {/* Carousel item caption */}
     <Carousel.Caption>
-    <span className="text-white bg-success fs-1 p-2 mb-1 rounded">Mount Everest</span> <br /> <br />
-      <span className="text-white bg-danger p-1 rounded">Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point. Its elevation of 8,848.86 m was most recently established in 2020 by the Chinese and Nepali authorities.</span> <br /> <br />
+    <span className="text-white bg-success fs-2 p-2 mb-1 rounded">Mount Everest</span> <br /> <br />
+      <span className="text-white bg-danger p-1 rounded">Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas.</span> <br /> <br />
     </Carousel.Caption>
   </Carousel.Item>
  
@@ -87,8 +87,8 @@ const Banner = () => {
 
   {/* Carousel item caption */}
     <Carousel.Caption>
-    <span className="text-white bg-primary fs-1 p-2 mb-1 rounded">Amazon Rainforest</span> <br /> <br />
-      <span className="text-white bg-danger p-1 rounded">The Amazon rainforest, covering much of northwestern Brazil and extending into Colombia, Peru and other South American countries, is the world’s largest tropical rainforest, famed for its biodiversity. </span> <br /> <br />
+    <span className="text-white bg-primary fs-2 p-2 mb-1 rounded">Amazon Rainforest</span> <br /> <br />
+      <span className="text-white bg-danger p-1 rounded">The Amazon rainforest, covering much of northwestern Brazil and extending into Colombia, Peru.  </span> <br /> <br />
     </Carousel.Caption>
   </Carousel.Item>
  
@@ -104,8 +104,8 @@ const Banner = () => {
 
   {/* Carousel item caption */}
     <Carousel.Caption>
-    <span className="text-white bg-primary fs-1 p-2 mb-1 rounded">Vietnam</span> <br /> <br />
-      <span className="text-white bg-dark p-1 rounded">Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas and bustling cities. Hanoi, the capital, pays homage to the nation’s iconic Communist-era leader, Ho Chi Minh, via a huge marble mausoleum.</span> <br /> <br />
+    <span className="text-white bg-primary fs-2 p-2 mb-1 rounded">Vietnam</span> <br /> <br />
+      <span className="text-white bg-dark p-1 rounded">Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas and bustling cities. </span> <br /> <br />
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

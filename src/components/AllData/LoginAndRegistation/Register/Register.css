@@ -1,0 +1,9 @@
+.register-form{
+    background-color: bisque;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.register-form:hover{
+    box-shadow: 5px 5px 10px gray;
+}

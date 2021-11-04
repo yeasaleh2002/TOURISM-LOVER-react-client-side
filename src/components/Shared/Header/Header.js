@@ -38,10 +38,8 @@ const Header = () => {
        <NavLink className="nav-link text-light fs-5" to="/blogs">Blogs</NavLink>
        <NavLink className="nav-link text-light fs-5" to="/about">About Us</NavLink>    
        <NavLink className="nav-link text-light fs-5" to="/contact">Contact</NavLink>
-
-
        <NavLink className="nav-link text-light fs-5" to="/login">LogIn</NavLink>
-       <NavLink className="nav-link text-light fs-5" to="/register">Register</NavLink>
+
 
     
     {/*  {

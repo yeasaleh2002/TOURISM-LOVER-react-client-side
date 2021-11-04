@@ -61,8 +61,8 @@ const Footer = () => {
                      <h2  className="text-light mb-3 text-center">Quick Links</h2>
 
                         <NavLink className="nav-link text-light fs-5" to="/home">Home</NavLink>             
-                        {/*<NavLink className="nav-link text-light fs-5" to="/services">Service</NavLink>           */}
-                        {/*<NavLink className="nav-link text-light fs-5" to="/gallery">Gallery</NavLink> */}
+                        <NavLink className="nav-link text-light fs-5" to="/services">Service</NavLink> 
+                        <NavLink className="nav-link text-light fs-5" to="/gallery">Gallery</NavLink> 
                         <NavLink className="nav-link text-light fs-5" to="/blogs">Blogs</NavLink>
                         <NavLink className="nav-link text-light fs-5" to="/about">About Us</NavLink>    
                         <NavLink className="nav-link text-light fs-5" to="/contact">Contact</NavLink>

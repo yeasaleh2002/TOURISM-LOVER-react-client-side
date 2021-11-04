@@ -60,13 +60,13 @@ const About = () => {
                 </div>
 
                 <div  className="col-sm-12 col-md-12 col-lg-4 py-5 px-5">
-                <img alt="" src="https://i.ibb.co/PsLTHB7/147263543-450862592856535-3621934526602806735-n.jpg"  className=" w-100 h-100"/>                
+                <img alt="" src="https://i.ibb.co/BnLDsD9/147263543-450862592856535-3621934526602806735-n.jpg"  className=" w-100 h-100"/>                
                   <h1 className="text-light">Yea Saleh</h1>
                   <h3 className="text-white">Founder</h3>
                 </div>
 
                 <div  className="col-sm-12 col-md-12 col-lg-4 mt-5 px-3">
-                <img alt="" src="https://i.ibb.co/Sf715xw/242863189-1547257428943595-6607981281044651091-n.jpg"  className=" w-100 h-100  rounded-3 "/>                
+                <img alt="" src="https://i.ibb.co/pvXXDxB/242863189-1547257428943595-6607981281044651091-n.png"  className=" w-100 h-100  rounded-3 "/>                
                   <h1 className="text-light"> Nazmul Hauqe</h1>
                   <h3 className="text-white">Co Founder</h3>
                   
