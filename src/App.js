@@ -10,9 +10,13 @@ import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Shared/Header/Header';
 import NotFound from './components/AllData/NotFound/NotFound';
 import Gallery from './components/AllData/Gallery/Gallery';
-import Services from './components/AllData/Services/Services';
 import Login from './components/AllData/LoginAndRegistation/Login/Login';
 import Register from './components/AllData/LoginAndRegistation/Register/Register';
+import MyOrder from './components/AllData/LoginUsersData/MyOrder/MyOrder';
+import AddService from './components/AllData/LoginUsersData/AddService/AddService';
+import ManageAllOrders from './components/AllData/LoginUsersData/ManageAllOrders/ManageAllOrders';
+import SingleService from './components/AllData/ServicesCompontent/SingleService/SingleService';
+import Services from './components/AllData/ServicesCompontent/Services/Services';
 
 function App() {
   return (
@@ -35,9 +39,9 @@ function App() {
         <Services></Services>
       </Route>
 
-     {/*  <PrivateRoute path="/serviceDetails/:serviceId">
-        <ServiceDetails></ServiceDetails>
-      </PrivateRoute> */}
+      <Route path="/singleService/:serviceId">
+        <SingleService></SingleService>
+      </Route>
 
       <Route path="/gallery">
         <Gallery></Gallery>
@@ -53,6 +57,18 @@ function App() {
 
       <Route path="/contact">
         <Contact></Contact>
+      </Route>
+
+      <Route path="/myOrder">
+        <MyOrder></MyOrder>
+      </Route>
+
+      <Route path="/addService">
+        <AddService></AddService>
+      </Route>
+
+      <Route path="/manageAllOrder">
+        <ManageAllOrders></ManageAllOrders>
       </Route>
 
        <Route path="/login">

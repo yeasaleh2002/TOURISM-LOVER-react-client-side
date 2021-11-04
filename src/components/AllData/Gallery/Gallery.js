@@ -13,7 +13,7 @@ const Gallery = () => {
                         {/* maldives sea beach part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/cFTZzyt/aerial-view.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/CJrppRk/maldivs.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3 className="text-danger">Maldives Sea beach</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -24,7 +24,7 @@ const Gallery = () => {
                          {/* Amazon RainForest part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/vB0y1RC/images-2.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/5FSLsWL/amazone.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3>Amazon RainForest</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -35,7 +35,7 @@ const Gallery = () => {
                         {/* Cox's Bazar sea beach part*/}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/DVR3rhR/images.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/HG1bpZd/coxsbazar.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><span className="text-warning fs-3">Cox's Bazar sea beach</span></Card.Title>
                         </Card.ImgOverlay>
@@ -46,7 +46,7 @@ const Gallery = () => {
                               {/* Sundarban Forest part*/}    
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/DtHzG8Y/download.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/LCSwRtv/sundarban.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3> Sundarban Forest</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -57,7 +57,7 @@ const Gallery = () => {
                           {/* Switzerland part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/gTM94Y3/download-12.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/dP6XMSY/switzweland.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3 className="text-dark">Switzerland</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -68,7 +68,7 @@ const Gallery = () => {
                           {/* Vietnam part  */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/WKJd3xC/download-11.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/P16fgZB/vyetnam.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3 className="text-dark">Vietnam</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -79,7 +79,7 @@ const Gallery = () => {
                 {/* Mount Everest part*/}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/VqDrBJL/download-10.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/DQPTt6T/mount.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3 className="text-dark mt-3">Mount Everest </h3></Card.Title>
                         </Card.ImgOverlay>
@@ -90,7 +90,7 @@ const Gallery = () => {
                        {/* IceLand part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/txSgR90/download-9.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/Hr6fX19/iceland.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3 className="text-danger">IceLand</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -102,7 +102,7 @@ const Gallery = () => {
                         {/* Madina part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/TRb4g8V/download-8.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/Lx9MJwf/madina-1.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3 className="text-dark">Madina</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -113,9 +113,9 @@ const Gallery = () => {
                           {/* Makkah part*/}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/sV35yMG/download-7.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/JcwFKpd/Macca-Kabe.jpg" alt="Card image" />
                         <Card.ImgOverlay>
-                            <Card.Title><h3>Madina</h3></Card.Title>
+                            <Card.Title><h3>Makkah</h3></Card.Title>
                         </Card.ImgOverlay>
                         </Card>
                     </Col>
@@ -124,7 +124,7 @@ const Gallery = () => {
                      {/* misor pyramid part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/C6G8zCq/download-6.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/9thdxsb/misor.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3>Misor Pyramid</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -135,7 +135,7 @@ const Gallery = () => {
                          {/* Chinese Great Wall part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/HHVYtrk/download-5.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/SxdcXhz/wall.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3>Chinese Great Wall</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -146,7 +146,7 @@ const Gallery = () => {
                              {/*Taj Mohol part*/}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style ">
-                        <Card.Img src="https://i.ibb.co/28GHy86/download-4.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/7Y2HSCB/tajmohol.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3>Taj Mohol</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -157,7 +157,7 @@ const Gallery = () => {
                           {/* Copenhegen part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/MCLqwNP/download-3.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/NC3DrWy/copenhegen.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3 className="text-dark">Copenhegen</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -168,7 +168,7 @@ const Gallery = () => {
                           {/* Jaflong part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/ypdgyPt/download-2.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/cXJ3H9J/jaflong.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3>Jaflong</h3></Card.Title>
                         </Card.ImgOverlay>
@@ -179,7 +179,7 @@ const Gallery = () => {
                        {/* sajek valley part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/Rcw9xmg/download-1.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/X2S22jL/sajek.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><span className="bg-info fs-3 py-1 px-3">Sajek valley </span></Card.Title>
                         </Card.ImgOverlay>
@@ -190,7 +190,7 @@ const Gallery = () => {
                         {/* Turkey part */}
                     <Col>
                       <Card className="bg-dark text-white h-100 w-100 gellary-background-style">
-                        <Card.Img src="https://i.ibb.co/tmW8n9L/images-1.jpg" alt="Card image" />
+                        <Card.Img src="https://i.ibb.co/Lh3kJTn/turkey.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             <Card.Title><h3>Turkey</h3></Card.Title>
                         </Card.ImgOverlay>

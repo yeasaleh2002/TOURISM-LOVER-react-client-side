@@ -38,9 +38,10 @@ const Header = () => {
        <NavLink className="nav-link text-light fs-5" to="/blogs">Blogs</NavLink>
        <NavLink className="nav-link text-light fs-5" to="/about">About Us</NavLink>    
        <NavLink className="nav-link text-light fs-5" to="/contact">Contact</NavLink>
+       <NavLink className="nav-link text-light fs-5" to="/myOrder">My Order</NavLink>
+       <NavLink className="nav-link text-light fs-5" to="/addService">Add Service</NavLink>
+       <NavLink className="nav-link text-light fs-5" to="/manageAllOrder">Manage Order</NavLink>
        <NavLink className="nav-link text-light fs-5" to="/login">LogIn</NavLink>
-
-
     
     {/*  {
          user.displayName ?
