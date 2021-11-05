@@ -18,7 +18,7 @@ const Header = () => {
     
    <div>
 
-       <Navbar   collapseOnSelect expand="lg" bg="dark" variant="light">
+       <Navbar   collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
 
 
@@ -35,22 +35,52 @@ const Header = () => {
       {/* navbar route part */}
   <Navbar.Toggle className="bg-info" aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse  id="responsive-navbar-nav">
-    <Nav className="ms-auto">
-       <NavLink className="nav-link text-light fs-6" to="/home">Home</NavLink>             
-       <NavLink className="nav-link text-light fs-6" to="/services">Service</NavLink>
-       <NavLink className="nav-link text-light fs-6" to="/gallery">Gallery</NavLink>   
-       <NavLink className="nav-link text-light fs-6" to="/blogs">Blogs</NavLink>
-       <NavLink className="nav-link text-light fs-6" to="/about">About</NavLink>    
-       <NavLink className="nav-link text-light fs-6" to="/contact">Contact</NavLink>
-       <NavLink className="nav-link text-light fs-6" to="/myOrder">Order</NavLink>
-       <NavLink className="nav-link text-light fs-6" to="/addService">Add Service</NavLink>
-       <NavLink className="nav-link text-light fs-6" to="/manageAllOrder">Manage Order</NavLink>
+    <Nav className="d-flex ms-auto align-items-center">
+      <Nav.Link>
+      <NavLink className="nav-link "   to="/home">Home</NavLink>
+      </Nav.Link>
+      <Nav.Link>
+      <NavLink className="nav-link  " to="/services">Service</NavLink>
+      </Nav.Link>
+      <Nav.Link>
+      <NavLink className="nav-link  " to="/gallery">Gallery</NavLink>
+      </Nav.Link>
+      <Nav.Link>
+      <NavLink className="nav-link  " to="/blogs">Blogs</NavLink>
+      </Nav.Link>
+      <Nav.Link>
+      <NavLink className="nav-link  " to="/about">About</NavLink>
+      </Nav.Link>
+      <Nav.Link>
+      <NavLink className="nav-link  " to="/contact">Contact</NavLink>
+      </Nav.Link>
+                    
     
        {
-         user.email ?         
-         <button  className="fs-5 ms-2 bg-dark text-light border-0" onClick={handleSignOut}> <span className="fs-5 ms-2 pt-2">{user.displayName} </span> log out</button>
+         user.email ?     
+         <>
+
+         <Nav.Link>
+         <NavLink className="nav-link " to="/myOrder">Order</NavLink>
+         </Nav.Link>
+         <Nav.Link>
+         <NavLink className="nav-link " to="/addService">Add Service</NavLink>
+         </Nav.Link>
+         <Nav.Link>
+         <NavLink className="nav-link " to="/manageAllOrder">Manage Order</NavLink>
+         </Nav.Link>
+         <Nav.Link>
+         <button  className=" ms-2  btn-sm btn-info " onClick={handleSignOut}> log out</button>
+         
+        </Nav.Link>
+        <Nav.Link active>
+        <span>{user.displayName} </span>
+        </Nav.Link>
+        
+         </>    
+        
          :
-         <NavLink className="nav-link text-light fs-6" to="/login">LogIn</NavLink>
+         <NavLink className="nav-link  fs-6" to="/login">LogIn</NavLink>
      } 
 
  

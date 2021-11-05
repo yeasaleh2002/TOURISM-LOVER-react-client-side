@@ -29,7 +29,7 @@ const Service = (props) => {
              
                <Card.Title className="text-primary"><h5> Package Key: {index + 1001} </h5></Card.Title>
 
-               <Card.Title  className="text-success"><h5>Booking Fee: {balance}</h5></Card.Title>
+               <Card.Title  className="text-success"><h5>Booking Fee: ${balance}</h5></Card.Title>
                
                <Card.Title className="text-danger"><h5>Booking Days: {packageDays}</h5></Card.Title>
                
