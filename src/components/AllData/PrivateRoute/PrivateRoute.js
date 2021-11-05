@@ -1,12 +1,18 @@
 import React from 'react';
+import { Spinner } from 'react-bootstrap';
 import { Redirect, Route } from 'react-router';
 import useAuth from '../../../Hooks/useAuth';
 
 
 const PrivateRoute = ({ children , ...rest }) => {
   
-   const { user } = useAuth();
-  
+   const { user , isLoading } = useAuth();
+   
+   if( isLoading ) {
+      return <Spinner  animation="border" variant="danger" />
+   }
+
+
     return (
 
     //   private route randering and redirect
@@ -14,9 +20,8 @@ const PrivateRoute = ({ children , ...rest }) => {
             {...rest}
 
             //rendering
-            render={({location}) => user.displayName ? children
+            render={({location}) => user.email ? children
              : 
-
 
              // redirect
              <Redirect to={{
@@ -25,11 +30,9 @@ const PrivateRoute = ({ children , ...rest }) => {
              }}>
 
              </Redirect>
-        }
-        
+          }        
         >
-
-        </Route>
+     </Route>
     );
 };
 

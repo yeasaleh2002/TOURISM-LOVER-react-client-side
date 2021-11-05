@@ -17,77 +17,83 @@ import AddService from './components/AllData/LoginUsersData/AddService/AddServic
 import ManageAllOrders from './components/AllData/LoginUsersData/ManageAllOrders/ManageAllOrders';
 import SingleService from './components/AllData/ServicesCompontent/SingleService/SingleService';
 import Services from './components/AllData/ServicesCompontent/Services/Services';
+import PrivateRoute from './components/AllData/PrivateRoute/PrivateRoute';
+import AuthProvider from './Context/AuthProvider';
 
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
- 
- <Header></Header>
-  
-   <Switch>
+       <AuthProvider>
 
-      <Route exact path="/">
-        <Home></Home>
-      </Route>
+          <BrowserRouter>
+            
+            <Header></Header>
+              
+              <Switch>
 
-      <Route path="/home">
-        <Home></Home>
-      </Route>
+                  <Route exact path="/">
+                    <Home></Home>
+                  </Route>
 
-      <Route path="/services">
-        <Services></Services>
-      </Route>
+                  <Route path="/home">
+                    <Home></Home>
+                  </Route>
 
-      <Route path="/singleService/:serviceId">
-        <SingleService></SingleService>
-      </Route>
+                  <Route path="/services">
+                    <Services></Services>
+                  </Route>
 
-      <Route path="/gallery">
-        <Gallery></Gallery>
-      </Route>
+                  <PrivateRoute path="/singleService/:serviceId">
+                    <SingleService></SingleService>
+                  </PrivateRoute>
 
-      <Route path="/blogs">
-        <Blog></Blog>
-      </Route>
-     
-      <Route path="/about">
-        <About></About>
-      </Route>
+                  <Route path="/gallery">
+                    <Gallery></Gallery>
+                  </Route>
 
-      <Route path="/contact">
-        <Contact></Contact>
-      </Route>
+                  <Route path="/blogs">
+                    <Blog></Blog>
+                  </Route>
+                
+                  <Route path="/about">
+                    <About></About>
+                  </Route>
 
-      <Route path="/myOrder">
-        <MyOrder></MyOrder>
-      </Route>
+                  <Route path="/contact">
+                    <Contact></Contact>
+                  </Route>
 
-      <Route path="/addService">
-        <AddService></AddService>
-      </Route>
+                  <Route path="/myOrder">
+                    <MyOrder></MyOrder>
+                  </Route>
 
-      <Route path="/manageAllOrder">
-        <ManageAllOrders></ManageAllOrders>
-      </Route>
+                  <Route path="/addService">
+                    <AddService></AddService>
+                  </Route>
 
-       <Route path="/login">
-        <Login></Login>
-      </Route>
+                  <Route path="/manageAllOrder">
+                    <ManageAllOrders></ManageAllOrders>
+                  </Route>
 
-     <Route path="/register">
-        <Register></Register>
-      </Route>
+                  <Route path="/login">
+                    <Login></Login>
+                  </Route>
 
-      <Route path="*">
-        <NotFound></NotFound>
-      </Route>
+                <Route path="/register">
+                    <Register></Register>
+                  </Route>
 
-   </Switch>
+                  <Route path="*">
+                    <NotFound></NotFound>
+                  </Route>
 
-<Footer></Footer>
+              </Switch>
 
- </BrowserRouter>
+            <Footer></Footer>
+
+          </BrowserRouter>
+
+       </AuthProvider>
     </div>
   );
 }

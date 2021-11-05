@@ -7,9 +7,10 @@ import useAuth from '../../../../Hooks/useAuth';
 
 
 const Login = () => {
-/* 
 
-    const { handleGoogleSignIn} = useAuth();
+
+    const {signInUsingGoogle} = useAuth();
+
 
     // location
     const location = useLocation();
@@ -19,12 +20,12 @@ const Login = () => {
     
     // handleGoogleLogIn function
   const handleGoogleLogIn = () => {
-    handleGoogleSignIn()
+    signInUsingGoogle()
     .then(result => {
        history.push(redirect_uri)
-    })
+    });
   }
- */
+ 
 
     return (
         <div className="container text-center my-5">
@@ -33,7 +34,7 @@ const Login = () => {
                 <Row>
                     <Col  className="border login-form p-5" md={{ span: 6, offset: 3 }}>
                        <h2 className="mb-4">Login With</h2>
-                       <Button   className="mb-4 px-5 fs-5 rounded-pill"><i className=" fab fa-google"></i> Google</Button> <br/>
+                       <Button onClick={handleGoogleLogIn}  className="mb-4 px-5 fs-5 rounded-pill"><i className=" fab fa-google"></i> Google</Button> <br/>
                        <span className="fs-4">Don't have an account ? <Link className="text-danger text-decoration-none" to="/register">Create an account</Link></span>
                     </Col>
                 </Row>

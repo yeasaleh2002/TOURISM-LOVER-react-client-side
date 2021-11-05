@@ -13,28 +13,37 @@ const useFirebase = () => {
     // 3rd party login useState declare
     const [user, setUser] = useState({});
 
+    // isLoading useState declare
+    const [isLoading, setIsLoading] = useState(true);
+
+   
     
         //------ google provider-------
          const googleProvider = new GoogleAuthProvider();
 
-     // ---------------handle google sign in process----------------
-     const handleGoogleSignIn = () => {
+
+
+
+      // ---------------handle google sign in process----------------
+     const signInUsingGoogle = () => {
+
+       setIsLoading(true);
         return  signInWithPopup(auth, googleProvider)
         
-      }
+      } 
 
-     
+
     
 //------------ handle sign out part-------------
 const handleSignOut = () => {
 
+  setIsLoading(true);
     signOut(auth)
     .then(() => {
         setUser({});
     })
-        .catch((error) => {
-          console.log(error.message);
-        });
+    .finally(() => setIsLoading(false));
+        
   }
   
   
@@ -42,14 +51,13 @@ const handleSignOut = () => {
   useEffect( () => {
   
       onAuthStateChanged(auth, (user) => {
-          if (user) {
-           
-            
-            setUser(user);
+          if (user) {           
+               setUser(user);
           }
            else {
-           
+            setUser({})
           }
+          setIsLoading(false)
         });
      } ,[])
   
@@ -57,7 +65,8 @@ const handleSignOut = () => {
    
      return {
         user,   
-        handleGoogleSignIn,
+        isLoading,
+        signInUsingGoogle,
         handleSignOut
     };
 };

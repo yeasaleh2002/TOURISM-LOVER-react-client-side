@@ -42,7 +42,6 @@ const Service = (props) => {
                </Card.Text>
 
               
-
                            
                <span className=" d-flex align-items-center justify-content-center">
              
