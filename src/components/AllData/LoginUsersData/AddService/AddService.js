@@ -7,11 +7,13 @@ import './AddService.css';
 const AddService = () => {
 
 
-
+   /* useForm state declare */
     const { register, handleSubmit, reset } = useForm();
+
+    /* onSubmit handle declare */
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/services', data )
+        axios.post('https://desolate-fortress-05887.herokuapp.com/services', data )
         .then(res => {
             if(res.data.insertedId) {
                 alert('added successfully');
@@ -20,11 +22,13 @@ const AddService = () => {
         })
     }
 
+
     return (
     <div className="add-service">
         <div className="container my-5 w-50">
             <h1 className="text-center text-secondary">Please Add A Service</h1>
           
+          {/* add service form */}
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("picture")} placeholder="Service Image Link"/>
                 <input {...register("name", { required: true, maxLength: 40 })} placeholder="Service Name" />

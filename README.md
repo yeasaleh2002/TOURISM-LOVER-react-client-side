@@ -1,3 +1,55 @@
+# Project Name: TOURISM LOVER
+
+
+
+# Live Website : 
+
+
+
+
+# Website Feature:
+1. Tourism lover is a government approved private company that is working to help people who come on tour.
+
+2. You can see the services and facilities of the home page.
+
+3. Pictures and names of several places of interest can be seen in the Gallery component and our team members are given pictures and surnames.
+
+4. The process of contacting us is given in the contact.
+
+5. The details about us are given in about.
+
+6. Blog is written in the blog component
+
+7. Service is provided in the service component. And clicking on the book now button will show the details of the service.
+
+8. Fill out the form on the Service Details page, click confirm and the order will be confirmed.
+
+9. The service can be added through the add service page.
+
+10. You must be logged in to know the details of the service.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

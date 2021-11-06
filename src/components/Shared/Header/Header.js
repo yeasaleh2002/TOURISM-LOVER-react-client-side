@@ -28,7 +28,7 @@ const Header = () => {
 
       {/* navbar image part */}
   <img alt="" src="http://images.mini-ielts.com/images/1/18/tourism.jpg" width="55" height="55" className="header-img d-inline-block rounded-circle align-top"/>{' '} 
-  <span className="fw-bold text-white fs-3 p-3"> TOURISM LOVER</span>
+  <span className="fw-bold text-white fs-3 p-3">TOURISM LOVER</span>
       </Navbar.Brand>
 
 

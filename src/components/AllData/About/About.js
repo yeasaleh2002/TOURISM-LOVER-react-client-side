@@ -8,6 +8,7 @@ const About = () => {
             <h1 className="about-style"> About </h1>
            <div className="container">
                
+               {/* about our tourism lover */}
            <div className="row  mt-5">
                <div className="col-sm-12 col-md-12 col-lg-6 text-light pe-5">
                     <h5 className="text-info mb-5 mt-4 ">WELCOME TO TOURISM LOVER</h5>
@@ -20,6 +21,8 @@ const About = () => {
                </div>
            </div>
             
+
+            {/* analicis users */}
             <div className="row  bg-secondary rounded-3 py-3">
                
                 <div className="col-sm-12 col-md-6 col-lg-3 text-center my-4 px-3">
@@ -48,12 +51,13 @@ const About = () => {
 
             </div> 
             <br/>
- 
 
+ 
+                {/* team data */}
             <div className="row my-5 py-3">
                
-                <div className="col-sm-12 col-md-12 col-lg-4 mt-5  px-3">
-                             
+               
+                <div className="col-sm-12 col-md-12 col-lg-4 mt-5  px-3">                             
                   <h5 className="text-info"> OUR TEAM </h5>
                   <h1 className="text-white pt-4">Best <br/> Traveler To <br/> Guide You </h1>
                   <p  className="text-white pt-4">What is a travel guide person? Travel guides plan, sell, and arrange tours for groups or individuals that are normally at long distances from their customer's homes. These professionals also handle the group's transportation, accommodations, and even meals and more often than not travels with the group and stays in the same accommodations.</p>

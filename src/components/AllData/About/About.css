@@ -12,15 +12,3 @@
     text-align: center;
   }
   
-  
-  /* about us use colums style */
-  .contact-us-background-style{
-    transition: .7s;
-  }
-  
-  /* contact us colums style and hover effect */
-  .contact-us-background-style:hover{
-    background-color: rgb(236, 125, 180) ;
-    border-radius: 10px;
-    box-shadow: 5px 10px 5px gray;
-  }

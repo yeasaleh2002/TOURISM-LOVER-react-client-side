@@ -17,7 +17,7 @@ const SingleService = () => {
 
    // load data
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://desolate-fortress-05887.herokuapp.com/services/${serviceId}`)
           .then(res => res.json())
         
           .then(data => setSingleService(data));
@@ -77,6 +77,8 @@ const SingleService = () => {
   b   <div className="container my-5 w-75">
             <h1 className="text-success pb-5 text-center"> Shipping Address </h1>
             <Form>
+
+                {/* confirm order form */}
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                     <Form.Control  defaultValue={serviceId} /> <br />
                     <Form.Control  defaultValue={user.displayName} /> <br />
