@@ -39,18 +39,23 @@ const Header = () => {
       <Nav.Link>
       <NavLink className="nav-link "   to="/home">Home</NavLink>
       </Nav.Link>
+
       <Nav.Link>
       <NavLink className="nav-link  " to="/services">Service</NavLink>
       </Nav.Link>
+
       <Nav.Link>
       <NavLink className="nav-link  " to="/gallery">Gallery</NavLink>
       </Nav.Link>
+
       <Nav.Link>
       <NavLink className="nav-link  " to="/blogs">Blogs</NavLink>
       </Nav.Link>
+
       <Nav.Link>
       <NavLink className="nav-link  " to="/about">About</NavLink>
       </Nav.Link>
+
       <Nav.Link>
       <NavLink className="nav-link  " to="/contact">Contact</NavLink>
       </Nav.Link>
@@ -63,15 +68,17 @@ const Header = () => {
          <Nav.Link>
          <NavLink className="nav-link " to="/myOrder">Order</NavLink>
          </Nav.Link>
+
          <Nav.Link>
          <NavLink className="nav-link " to="/addService">Add Service</NavLink>
          </Nav.Link>
+
          <Nav.Link>
          <NavLink className="nav-link " to="/manageAllOrder">Manage Order</NavLink>
          </Nav.Link>
-         <Nav.Link>
-         <button  className=" ms-2  btn-sm btn-info " onClick={handleSignOut}> log out</button>
          
+         <Nav.Link>
+         <button  className=" ms-2  btn-sm btn-info " onClick={handleSignOut}> log out</button>         
         </Nav.Link>
         <Nav.Link active>
         <span>{user.displayName} </span>
@@ -80,7 +87,9 @@ const Header = () => {
          </>    
         
          :
+         <Nav.Link>
          <NavLink className="nav-link  fs-6" to="/login">LogIn</NavLink>
+         </Nav.Link>
      } 
 
  

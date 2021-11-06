@@ -5,11 +5,12 @@ import './Service.css';
 
 const Service = (props) => {
 
-
+  
     
     // destructring   
   const  {_id,index, picture,balance, name, about, packageDays } = props?.service || {}
 
+ 
 
     return (
         <Col>
@@ -51,7 +52,7 @@ const Service = (props) => {
                </Link>
                </span>
 
-
+            
                </Card.Body>
                </Card>
                        
